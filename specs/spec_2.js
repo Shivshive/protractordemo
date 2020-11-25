@@ -1,13 +1,13 @@
-describe('spec 2 test suite', function () {
+describe('console Reporter', function () {
     
     var counter = 5;
 
-    it('spec 2 test 1',function () {
+    it('case 1',function () {
 
         expect(counter).toBeLessThan(6);
     })
 
-    it('spec 2 test 2',function () {
+    it('case 2',function () {
         
         expect(counter).toEqual(5);
     })
